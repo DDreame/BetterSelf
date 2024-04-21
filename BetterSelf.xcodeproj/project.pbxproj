@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */; };
+		571ACFC42BD50FCD0005831D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC32BD50FCD0005831D /* ContentView.swift */; };
+		571ACFC62BD50FCD0005831D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC52BD50FCD0005831D /* Item.swift */; };
+		571ACFC82BD50FCE0005831D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFC72BD50FCE0005831D /* Assets.xcassets */; };
+		571ACFCC2BD50FCE0005831D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */; };
+		571ACFD62BD50FCE0005831D /* BetterSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFD52BD50FCE0005831D /* BetterSelfTests.swift */; };
+		571ACFE02BD50FCE0005831D /* BetterSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */; };
+		571ACFE22BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571ACFD22BD50FCE0005831D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571ACFB62BD50FCD0005831D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571ACFBD2BD50FCD0005831D;
+			remoteInfo = BetterSelf;
+		};
+		571ACFDC2BD50FCE0005831D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571ACFB62BD50FCD0005831D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571ACFBD2BD50FCD0005831D;
+			remoteInfo = BetterSelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571ACFBE2BD50FCD0005831D /* BetterSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfApp.swift; sourceTree = "<group>"; };
+		571ACFC32BD50FCD0005831D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		571ACFC52BD50FCD0005831D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		571ACFC72BD50FCE0005831D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterSelf.entitlements; sourceTree = "<group>"; };
+		571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		571ACFD12BD50FCE0005831D /* BetterSelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ACFD52BD50FCE0005831D /* BetterSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfTests.swift; sourceTree = "<group>"; };
+		571ACFDB2BD50FCE0005831D /* BetterSelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfUITests.swift; sourceTree = "<group>"; };
+		571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571ACFBB2BD50FCD0005831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFCE2BD50FCE0005831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFD82BD50FCE0005831D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571ACFB52BD50FCD0005831D = {
+			isa = PBXGroup;
+			children = (
+				571ACFC02BD50FCD0005831D /* BetterSelf */,
+				571ACFD42BD50FCE0005831D /* BetterSelfTests */,
+				571ACFDE2BD50FCE0005831D /* BetterSelfUITests */,
+				571ACFBF2BD50FCD0005831D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571ACFBF2BD50FCD0005831D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFBE2BD50FCD0005831D /* BetterSelf.app */,
+				571ACFD12BD50FCE0005831D /* BetterSelfTests.xctest */,
+				571ACFDB2BD50FCE0005831D /* BetterSelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571ACFC02BD50FCD0005831D /* BetterSelf */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
+				571ACFC32BD50FCD0005831D /* ContentView.swift */,
+				571ACFC52BD50FCD0005831D /* Item.swift */,
+				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
+				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
+				571ACFCA2BD50FCE0005831D /* Preview Content */,
+			);
+			path = BetterSelf;
+			sourceTree = "<group>";
+		};
+		571ACFCA2BD50FCE0005831D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		571ACFD42BD50FCE0005831D /* BetterSelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFD52BD50FCE0005831D /* BetterSelfTests.swift */,
+			);
+			path = BetterSelfTests;
+			sourceTree = "<group>";
+		};
+		571ACFDE2BD50FCE0005831D /* BetterSelfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */,
+				571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */,
+			);
+			path = BetterSelfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571ACFBD2BD50FCD0005831D /* BetterSelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ACFE52BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelf" */;
+			buildPhases = (
+				571ACFBA2BD50FCD0005831D /* Sources */,
+				571ACFBB2BD50FCD0005831D /* Frameworks */,
+				571ACFBC2BD50FCD0005831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSelf;
+			productName = BetterSelf;
+			productReference = 571ACFBE2BD50FCD0005831D /* BetterSelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571ACFD02BD50FCE0005831D /* BetterSelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ACFE82BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelfTests" */;
+			buildPhases = (
+				571ACFCD2BD50FCE0005831D /* Sources */,
+				571ACFCE2BD50FCE0005831D /* Frameworks */,
+				571ACFCF2BD50FCE0005831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571ACFD32BD50FCE0005831D /* PBXTargetDependency */,
+			);
+			name = BetterSelfTests;
+			productName = BetterSelfTests;
+			productReference = 571ACFD12BD50FCE0005831D /* BetterSelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		571ACFDA2BD50FCE0005831D /* BetterSelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ACFEB2BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelfUITests" */;
+			buildPhases = (
+				571ACFD72BD50FCE0005831D /* Sources */,
+				571ACFD82BD50FCE0005831D /* Frameworks */,
+				571ACFD92BD50FCE0005831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571ACFDD2BD50FCE0005831D /* PBXTargetDependency */,
+			);
+			name = BetterSelfUITests;
+			productName = BetterSelfUITests;
+			productReference = 571ACFDB2BD50FCE0005831D /* BetterSelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571ACFB62BD50FCD0005831D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					571ACFBD2BD50FCD0005831D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					571ACFD02BD50FCE0005831D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 571ACFBD2BD50FCD0005831D;
+					};
+					571ACFDA2BD50FCE0005831D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 571ACFBD2BD50FCD0005831D;
+					};
+				};
+			};
+			buildConfigurationList = 571ACFB92BD50FCD0005831D /* Build configuration list for PBXProject "BetterSelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571ACFB52BD50FCD0005831D;
+			productRefGroup = 571ACFBF2BD50FCD0005831D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571ACFBD2BD50FCD0005831D /* BetterSelf */,
+				571ACFD02BD50FCE0005831D /* BetterSelfTests */,
+				571ACFDA2BD50FCE0005831D /* BetterSelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571ACFBC2BD50FCD0005831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ACFCC2BD50FCE0005831D /* Preview Assets.xcassets in Resources */,
+				571ACFC82BD50FCE0005831D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFCF2BD50FCE0005831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFD92BD50FCE0005831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571ACFBA2BD50FCD0005831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ACFC42BD50FCD0005831D /* ContentView.swift in Sources */,
+				571ACFC62BD50FCD0005831D /* Item.swift in Sources */,
+				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFCD2BD50FCE0005831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ACFD62BD50FCE0005831D /* BetterSelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ACFD72BD50FCE0005831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ACFE22BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift in Sources */,
+				571ACFE02BD50FCE0005831D /* BetterSelfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571ACFD32BD50FCE0005831D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571ACFBD2BD50FCD0005831D /* BetterSelf */;
+			targetProxy = 571ACFD22BD50FCE0005831D /* PBXContainerItemProxy */;
+		};
+		571ACFDD2BD50FCE0005831D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571ACFBD2BD50FCD0005831D /* BetterSelf */;
+			targetProxy = 571ACFDC2BD50FCE0005831D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		571ACFE32BD50FCE0005831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571ACFE42BD50FCE0005831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		571ACFE62BD50FCE0005831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterSelf/BetterSelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSelf/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571ACFE72BD50FCE0005831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterSelf/BetterSelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSelf/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		571ACFE92BD50FCE0005831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSelf";
+			};
+			name = Debug;
+		};
+		571ACFEA2BD50FCE0005831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSelf";
+			};
+			name = Release;
+		};
+		571ACFEC2BD50FCE0005831D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterSelf;
+			};
+			name = Debug;
+		};
+		571ACFED2BD50FCE0005831D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT45R8PU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.dreamful.BetterSelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterSelf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571ACFB92BD50FCD0005831D /* Build configuration list for PBXProject "BetterSelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ACFE32BD50FCE0005831D /* Debug */,
+				571ACFE42BD50FCE0005831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571ACFE52BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ACFE62BD50FCE0005831D /* Debug */,
+				571ACFE72BD50FCE0005831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571ACFE82BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ACFE92BD50FCE0005831D /* Debug */,
+				571ACFEA2BD50FCE0005831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571ACFEB2BD50FCE0005831D /* Build configuration list for PBXNativeTarget "BetterSelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ACFEC2BD50FCE0005831D /* Debug */,
+				571ACFED2BD50FCE0005831D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571ACFB62BD50FCD0005831D /* Project object */;
+}
