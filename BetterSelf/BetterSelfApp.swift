@@ -2,7 +2,7 @@
 //  BetterSelfApp.swift
 //  BetterSelf
 //
-//  Created by 辛晨 on 2024/4/21.
+//  Created by DDreame on 2024/4/21.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ import SwiftData
 struct BetterSelfApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            ChestSingle.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct BetterSelfApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChestListView()
         }
         .modelContainer(sharedModelContainer)
     }

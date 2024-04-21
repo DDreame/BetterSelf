@@ -2,7 +2,7 @@
 //  BetterSelfUITestsLaunchTests.swift
 //  BetterSelfUITests
 //
-//  Created by 辛晨 on 2024/4/21.
+//  Created by DDreame on 2024/4/21.
 //
 
 import XCTest

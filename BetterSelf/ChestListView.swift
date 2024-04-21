@@ -2,28 +2,30 @@
 //  ContentView.swift
 //  BetterSelf
 //
-//  Created by 辛晨 on 2024/4/21.
+//  Created by DDreame on 2024/4/21.
 //
 
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct ChestListView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var chests: [ChestSingle]
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(chests) { chest in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text(chest.fitType)
+                            .navigationTitle(chest.fitType)
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text(chest.fitType)
                     }
                 }
                 .onDelete(perform: deleteItems)
             }
+            .navigationTitle("Chest")
 #if os(macOS)
             .navigationSplitViewColumnWidth(min: 180, ideal: 200)
 #endif
@@ -40,13 +42,14 @@ struct ContentView: View {
                 }
             }
         } detail: {
-            Text("Select an item")
+            Text("Select an Fitness")
+                .navigationTitle("aaa")
         }
     }
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
+            let newItem = ChestSingle(fitType: "卧推", strength: "15kg", times: 10, groups: 4)
             modelContext.insert(newItem)
         }
     }
@@ -54,13 +57,13 @@ struct ContentView: View {
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(chests[index])
             }
         }
     }
 }
 
 #Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+    ChestListView()
+        .modelContainer(for: ChestSingle.self, inMemory: true)
 }
