@@ -53,6 +53,8 @@
 		571ACFEE2BD51FF70005831D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		571ACFF02BD526DC0005831D /* ChestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestList.swift; sourceTree = "<group>"; };
 		571ACFF32BD52B710005831D /* ChestRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestRecordView.swift; sourceTree = "<group>"; };
+		571ACFF52BD54FE80005831D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		571ACFF62BD555090005831D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../../../Downloads/LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		571ACFB52BD50FCD0005831D = {
 			isa = PBXGroup;
 			children = (
+				571ACFF52BD54FE80005831D /* README.md */,
 				571ACFC02BD50FCD0005831D /* BetterSelf */,
 				571ACFD42BD50FCE0005831D /* BetterSelfTests */,
 				571ACFDE2BD50FCE0005831D /* BetterSelfUITests */,
@@ -136,6 +139,7 @@
 		571ACFDE2BD50FCE0005831D /* BetterSelfUITests */ = {
 			isa = PBXGroup;
 			children = (
+				571ACFF62BD555090005831D /* LICENSE.txt */,
 				571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */,
 				571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */,
 			);
