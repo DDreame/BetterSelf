@@ -52,9 +52,9 @@ struct ChestRecordView: View {
                         
                         
                         ToolbarItem(placement: .cancellationAction) {
-                            Button(action: addItem) {
-                                Label("Add Item", systemImage: "gear")
-                            }
+                            NavigationLink(destination: SettingView()) {
+                                Label("SystemSetting", systemImage: "gear")
+                                }
                         }
                     }
                     .sheet(item: $newList) { chestlist in
@@ -81,6 +81,10 @@ struct ChestRecordView: View {
             newList = newItem
         }
     }
+    
+    
+    
+    
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {

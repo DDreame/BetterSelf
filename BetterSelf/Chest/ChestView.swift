@@ -10,6 +10,9 @@ import SwiftUI
 
 struct ChestView: View {
     @Bindable var chest: ChestSingle
+    
+    
+    let options = ["Option 1", "Option 2", "Option 3", "Option 4"]
     var isEdit: Bool = false
     var body: some View {
         if isEdit {
@@ -38,6 +41,14 @@ struct ChestView: View {
         }
         else{
             VStack(alignment: .leading) {
+                Picker("Training Action:", selection: $chest.fitType) {
+                    ForEach(options, id: \.self) { option in
+                        Text(option).tag(option)
+                    }
+                }
+                #if os(iOS)
+                .pickerStyle(MenuPickerStyle())
+                #endif
                 Text("Training Action: \(chest.fitType)")
                 HStack {
                     Text("Times: \(chest.times)")

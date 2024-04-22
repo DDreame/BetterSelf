@@ -14,7 +14,6 @@ struct ChestListView: View{
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     @State var isEdit = false
-    let options = ["Option 1", "Option 2", "Option 3", "Option 4"]
     
     var body: some View {
           Form {

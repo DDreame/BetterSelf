@@ -12,7 +12,7 @@ import SwiftData
 struct BetterSelfApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            ChestSingle.self,
+            ChestList.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

@@ -21,6 +21,7 @@
 		571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF92BD5F0890005831D /* ChestView.swift */; };
 		571ACFFC2BD600190005831D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFB2BD600190005831D /* ContentView.swift */; };
 		571ACFFE2BD60A660005831D /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFD2BD60A660005831D /* CreateView.swift */; };
+		571AD0002BD6409D0005831D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFF2BD6409D0005831D /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		571ACFF92BD5F0890005831D /* ChestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestView.swift; sourceTree = "<group>"; };
 		571ACFFB2BD600190005831D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		571ACFFD2BD60A660005831D /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		571ACFFF2BD6409D0005831D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +116,13 @@
 			children = (
 				571ACFF22BD52AA50005831D /* Chest */,
 				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
-				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
-				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
-				571ACFCA2BD50FCE0005831D /* Preview Content */,
-				571ACFEE2BD51FF70005831D /* SampleData.swift */,
 				571ACFFB2BD600190005831D /* ContentView.swift */,
 				571ACFFD2BD60A660005831D /* CreateView.swift */,
+				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
+				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
+				571ACFEE2BD51FF70005831D /* SampleData.swift */,
+				571ACFCA2BD50FCE0005831D /* Preview Content */,
+				571ACFFF2BD6409D0005831D /* SettingView.swift */,
 			);
 			path = BetterSelf;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
+				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
 				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
 				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
