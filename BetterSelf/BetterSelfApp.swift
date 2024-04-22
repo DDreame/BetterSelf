@@ -25,7 +25,7 @@ struct BetterSelfApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ChestListView()
+            ContentView()
         }
         .modelContainer(sharedModelContainer)
     }

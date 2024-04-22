@@ -32,13 +32,18 @@ class SampleData{
     }
     
     func insertSampleData() {
-        for chestSingle in ChestSingle.sampleData {
-            context.insert(chestSingle)
+        
+        for chestList in ChestList.sampleData {
+            context.insert(chestList)
         }
         do{
             try context.save()
         } catch{
             print("Sample data context failed to save.")
         }
+    }
+    
+    var chests: ChestList{
+        ChestList.sampleData[0]
     }
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */; };
-		571ACFC42BD50FCD0005831D /* ChestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC32BD50FCD0005831D /* ChestListView.swift */; };
 		571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC52BD50FCD0005831D /* ChestSingle.swift */; };
 		571ACFC82BD50FCE0005831D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFC72BD50FCE0005831D /* Assets.xcassets */; };
 		571ACFCC2BD50FCE0005831D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */; };
@@ -18,6 +17,10 @@
 		571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFEE2BD51FF70005831D /* SampleData.swift */; };
 		571ACFF12BD526DC0005831D /* ChestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF02BD526DC0005831D /* ChestList.swift */; };
 		571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF32BD52B710005831D /* ChestRecordView.swift */; };
+		571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF72BD5ECFE0005831D /* ChestListView.swift */; };
+		571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF92BD5F0890005831D /* ChestView.swift */; };
+		571ACFFC2BD600190005831D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFB2BD600190005831D /* ContentView.swift */; };
+		571ACFFE2BD60A660005831D /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFD2BD60A660005831D /* CreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 /* Begin PBXFileReference section */
 		571ACFBE2BD50FCD0005831D /* BetterSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfApp.swift; sourceTree = "<group>"; };
-		571ACFC32BD50FCD0005831D /* ChestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestListView.swift; sourceTree = "<group>"; };
 		571ACFC52BD50FCD0005831D /* ChestSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestSingle.swift; sourceTree = "<group>"; };
 		571ACFC72BD50FCE0005831D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterSelf.entitlements; sourceTree = "<group>"; };
@@ -55,6 +57,10 @@
 		571ACFF32BD52B710005831D /* ChestRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestRecordView.swift; sourceTree = "<group>"; };
 		571ACFF52BD54FE80005831D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		571ACFF62BD555090005831D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../../../Downloads/LICENSE.txt; sourceTree = "<group>"; };
+		571ACFF72BD5ECFE0005831D /* ChestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestListView.swift; sourceTree = "<group>"; };
+		571ACFF92BD5F0890005831D /* ChestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestView.swift; sourceTree = "<group>"; };
+		571ACFFB2BD600190005831D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		571ACFFD2BD60A660005831D /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +112,14 @@
 		571ACFC02BD50FCD0005831D /* BetterSelf */ = {
 			isa = PBXGroup;
 			children = (
-				571ACFC32BD50FCD0005831D /* ChestListView.swift */,
-				571ACFC52BD50FCD0005831D /* ChestSingle.swift */,
-				571ACFF02BD526DC0005831D /* ChestList.swift */,
 				571ACFF22BD52AA50005831D /* Chest */,
 				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
 				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
 				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
 				571ACFCA2BD50FCE0005831D /* Preview Content */,
 				571ACFEE2BD51FF70005831D /* SampleData.swift */,
-				571ACFF32BD52B710005831D /* ChestRecordView.swift */,
+				571ACFFB2BD600190005831D /* ContentView.swift */,
+				571ACFFD2BD60A660005831D /* CreateView.swift */,
 			);
 			path = BetterSelf;
 			sourceTree = "<group>";
@@ -149,6 +153,11 @@
 		571ACFF22BD52AA50005831D /* Chest */ = {
 			isa = PBXGroup;
 			children = (
+				571ACFC52BD50FCD0005831D /* ChestSingle.swift */,
+				571ACFF02BD526DC0005831D /* ChestList.swift */,
+				571ACFF32BD52B710005831D /* ChestRecordView.swift */,
+				571ACFF72BD5ECFE0005831D /* ChestListView.swift */,
+				571ACFF92BD5F0890005831D /* ChestView.swift */,
 			);
 			path = Chest;
 			sourceTree = "<group>";
@@ -284,8 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
-				571ACFC42BD50FCD0005831D /* ChestListView.swift in Sources */,
+				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
+				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
+				571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */,
+				571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */,
 				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
 				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
 				571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */,
@@ -452,6 +464,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -490,6 +503,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

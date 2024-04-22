@@ -10,6 +10,7 @@ import SwiftData
 
 @Model
 final class ChestSingle {
+    var index: Int
     // 训练动作
     var fitType: String
     // 训练强度
@@ -19,17 +20,18 @@ final class ChestSingle {
     // 训练组数
     var groups: Int
     
-    init(fitType: String, strength: String, times: Int, groups: Int) {
+    init(index: Int, fitType: String, strength: String, times: Int, groups: Int) {
+        self.index = index
         self.fitType = fitType
         self.strength = strength
         self.times = times
         self.groups = groups
     }
     static let sampleData = [
-        ChestSingle(fitType: "卧推", strength: "15kg", times: 10, groups: 4),
-        ChestSingle(fitType: "卧推", strength: "15kg", times: 10, groups: 4),
-        ChestSingle(fitType: "卧推", strength: "15kg", times: 10, groups: 4),
-        ChestSingle(fitType: "卧推", strength: "15kg", times: 10, groups: 4),
+        ChestSingle(index: 0,fitType: "卧推1", strength: "15kg", times: 10, groups: 4),
+        ChestSingle(index: 1,fitType: "卧推2", strength: "15kg", times: 10, groups: 4),
+        ChestSingle(index: 2,fitType: "卧推3", strength: "15kg", times: 10, groups: 4),
+        ChestSingle(index: 0,fitType: "卧推4", strength: "15kg", times: 10, groups: 4),
     ]
     
 }
