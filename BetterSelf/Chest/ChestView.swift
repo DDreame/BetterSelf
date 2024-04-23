@@ -12,13 +12,20 @@ struct ChestView: View {
     @Bindable var chest: ChestSingle
     
     
-    let options = ["Option 1", "Option 2", "Option 3", "Option 4"]
+    let options = ["卧推", "夹胸", "下胸", "Option 4"]
     var isEdit: Bool = false
     var body: some View {
         if isEdit {
             VStack(alignment: .leading) {
-                TextField("Training Action", text: $chest.fitType)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                Picker("Training Action:", selection: $chest.fitType) {
+                    ForEach(options, id: \.self) { option in
+                        Text(option).tag(option)
+                    }
+                }
+                #if os(iOS)
+                .pickerStyle(MenuPickerStyle())
+                #endif
+               
                 
                 HStack {
                     Stepper("Times: \(chest.times)", value: $chest.times, in: 1...10)
@@ -41,14 +48,8 @@ struct ChestView: View {
         }
         else{
             VStack(alignment: .leading) {
-                Picker("Training Action:", selection: $chest.fitType) {
-                    ForEach(options, id: \.self) { option in
-                        Text(option).tag(option)
-                    }
-                }
-                #if os(iOS)
-                .pickerStyle(MenuPickerStyle())
-                #endif
+                TextField("Training Action", text: $chest.fitType)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Text("Training Action: \(chest.fitType)")
                 HStack {
                     Text("Times: \(chest.times)")

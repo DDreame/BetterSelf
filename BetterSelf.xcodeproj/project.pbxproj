@@ -22,6 +22,10 @@
 		571ACFFC2BD600190005831D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFB2BD600190005831D /* ContentView.swift */; };
 		571ACFFE2BD60A660005831D /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFD2BD60A660005831D /* CreateView.swift */; };
 		571AD0002BD6409D0005831D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFF2BD6409D0005831D /* SettingView.swift */; };
+		571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0042BD756FC0005831D /* RudderNavigation.swift */; };
+		571AD0072BD75EC30005831D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0062BD75EC30005831D /* PopupView.swift */; };
+		571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0082BD75F010005831D /* ShowPopupView.swift */; };
+		571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD00A2BD75FE70005831D /* RudderNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +61,15 @@
 		571ACFF02BD526DC0005831D /* ChestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestList.swift; sourceTree = "<group>"; };
 		571ACFF32BD52B710005831D /* ChestRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestRecordView.swift; sourceTree = "<group>"; };
 		571ACFF52BD54FE80005831D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		571ACFF62BD555090005831D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../../../Downloads/LICENSE.txt; sourceTree = "<group>"; };
 		571ACFF72BD5ECFE0005831D /* ChestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestListView.swift; sourceTree = "<group>"; };
 		571ACFF92BD5F0890005831D /* ChestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestView.swift; sourceTree = "<group>"; };
 		571ACFFB2BD600190005831D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		571ACFFD2BD60A660005831D /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		571ACFFF2BD6409D0005831D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		571AD0042BD756FC0005831D /* RudderNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudderNavigation.swift; sourceTree = "<group>"; };
+		571AD0062BD75EC30005831D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		571AD0082BD75F010005831D /* ShowPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPopupView.swift; sourceTree = "<group>"; };
+		571AD00A2BD75FE70005831D /* RudderNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudderNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,15 +121,16 @@
 		571ACFC02BD50FCD0005831D /* BetterSelf */ = {
 			isa = PBXGroup;
 			children = (
+				571AD0032BD756B30005831D /* Example */,
 				571ACFF22BD52AA50005831D /* Chest */,
 				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
 				571ACFFB2BD600190005831D /* ContentView.swift */,
 				571ACFFD2BD60A660005831D /* CreateView.swift */,
+				571ACFFF2BD6409D0005831D /* SettingView.swift */,
 				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
 				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
 				571ACFEE2BD51FF70005831D /* SampleData.swift */,
 				571ACFCA2BD50FCE0005831D /* Preview Content */,
-				571ACFFF2BD6409D0005831D /* SettingView.swift */,
 			);
 			path = BetterSelf;
 			sourceTree = "<group>";
@@ -146,7 +154,6 @@
 		571ACFDE2BD50FCE0005831D /* BetterSelfUITests */ = {
 			isa = PBXGroup;
 			children = (
-				571ACFF62BD555090005831D /* LICENSE.txt */,
 				571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */,
 				571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */,
 			);
@@ -163,6 +170,17 @@
 				571ACFF92BD5F0890005831D /* ChestView.swift */,
 			);
 			path = Chest;
+			sourceTree = "<group>";
+		};
+		571AD0032BD756B30005831D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				571AD0042BD756FC0005831D /* RudderNavigation.swift */,
+				571AD0062BD75EC30005831D /* PopupView.swift */,
+				571AD0082BD75F010005831D /* ShowPopupView.swift */,
+				571AD00A2BD75FE70005831D /* RudderNavigationView.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,15 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */,
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
 				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
 				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
 				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
 				571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */,
+				571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */,
 				571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */,
 				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
+				571AD0072BD75EC30005831D /* PopupView.swift in Sources */,
 				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
+				571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */,
 				571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
