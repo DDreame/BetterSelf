@@ -26,6 +26,11 @@
 		571AD0072BD75EC30005831D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0062BD75EC30005831D /* PopupView.swift */; };
 		571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0082BD75F010005831D /* ShowPopupView.swift */; };
 		571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD00A2BD75FE70005831D /* RudderNavigationView.swift */; };
+		571AD00D2BD7A3010005831D /* NewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD00C2BD7A3010005831D /* NewContentView.swift */; };
+		571AD00F2BD7A5920005831D /* NewPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD00E2BD7A5920005831D /* NewPopupView.swift */; };
+		571AD0112BD7AD220005831D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0102BD7AD220005831D /* TestView.swift */; };
+		571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0122BD7B1B30005831D /* TestButtonView.swift */; };
+		571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0142BD7B7320005831D /* TestButtonPopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		571AD0062BD75EC30005831D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		571AD0082BD75F010005831D /* ShowPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPopupView.swift; sourceTree = "<group>"; };
 		571AD00A2BD75FE70005831D /* RudderNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudderNavigationView.swift; sourceTree = "<group>"; };
+		571AD00C2BD7A3010005831D /* NewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContentView.swift; sourceTree = "<group>"; };
+		571AD00E2BD7A5920005831D /* NewPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPopupView.swift; sourceTree = "<group>"; };
+		571AD0102BD7AD220005831D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		571AD0122BD7B1B30005831D /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
+		571AD0142BD7B7320005831D /* TestButtonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonPopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +189,11 @@
 				571AD0062BD75EC30005831D /* PopupView.swift */,
 				571AD0082BD75F010005831D /* ShowPopupView.swift */,
 				571AD00A2BD75FE70005831D /* RudderNavigationView.swift */,
+				571AD00C2BD7A3010005831D /* NewContentView.swift */,
+				571AD00E2BD7A5920005831D /* NewPopupView.swift */,
+				571AD0102BD7AD220005831D /* TestView.swift */,
+				571AD0122BD7B1B30005831D /* TestButtonView.swift */,
+				571AD0142BD7B7320005831D /* TestButtonPopupView.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -317,13 +332,18 @@
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
 				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
 				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
+				571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */,
+				571AD00D2BD7A3010005831D /* NewContentView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
+				571AD00F2BD7A5920005831D /* NewPopupView.swift in Sources */,
 				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
+				571AD0112BD7AD220005831D /* TestView.swift in Sources */,
 				571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */,
 				571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */,
 				571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */,
 				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
 				571AD0072BD75EC30005831D /* PopupView.swift in Sources */,
+				571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */,
 				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
 				571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */,
 				571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */,
