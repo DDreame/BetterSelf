@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5714C10E2BE4CD7A00DE093D /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 5714C10D2BE4CD7A00DE093D /* HorizonCalendar */; };
+		5714C1102BE4CD9500DE093D /* CalendarTestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714C10F2BE4CD9500DE093D /* CalendarTestView1.swift */; };
+		5714C1122BE4CFB900DE093D /* DayRangeSelectionDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714C1112BE4CFB900DE093D /* DayRangeSelectionDemoViewController.swift */; };
 		571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */; };
 		571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC52BD50FCD0005831D /* ChestSingle.swift */; };
 		571ACFC82BD50FCE0005831D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFC72BD50FCE0005831D /* Assets.xcassets */; };
@@ -31,6 +34,7 @@
 		571AD0112BD7AD220005831D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0102BD7AD220005831D /* TestView.swift */; };
 		571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0122BD7B1B30005831D /* TestButtonView.swift */; };
 		571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0142BD7B7320005831D /* TestButtonPopupView.swift */; };
+		571AD0172BDFE4330005831D /* ImageWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0162BDFE4330005831D /* ImageWithTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5714C10F2BE4CD9500DE093D /* CalendarTestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTestView1.swift; sourceTree = "<group>"; };
+		5714C1112BE4CFB900DE093D /* DayRangeSelectionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRangeSelectionDemoViewController.swift; sourceTree = "<group>"; };
 		571ACFBE2BD50FCD0005831D /* BetterSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfApp.swift; sourceTree = "<group>"; };
 		571ACFC52BD50FCD0005831D /* ChestSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestSingle.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 		571AD0102BD7AD220005831D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		571AD0122BD7B1B30005831D /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
 		571AD0142BD7B7320005831D /* TestButtonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonPopupView.swift; sourceTree = "<group>"; };
+		571AD0162BDFE4330005831D /* ImageWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5714C10E2BE4CD7A00DE093D /* HorizonCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +202,9 @@
 				571AD0102BD7AD220005831D /* TestView.swift */,
 				571AD0122BD7B1B30005831D /* TestButtonView.swift */,
 				571AD0142BD7B7320005831D /* TestButtonPopupView.swift */,
+				571AD0162BDFE4330005831D /* ImageWithTextView.swift */,
+				5714C10F2BE4CD9500DE093D /* CalendarTestView1.swift */,
+				5714C1112BE4CFB900DE093D /* DayRangeSelectionDemoViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -214,6 +225,9 @@
 			dependencies = (
 			);
 			name = BetterSelf;
+			packageProductDependencies = (
+				5714C10D2BE4CD7A00DE093D /* HorizonCalendar */,
+			);
 			productName = BetterSelf;
 			productReference = 571ACFBE2BD50FCD0005831D /* BetterSelf.app */;
 			productType = "com.apple.product-type.application";
@@ -286,6 +300,9 @@
 				Base,
 			);
 			mainGroup = 571ACFB52BD50FCD0005831D;
+			packageReferences = (
+				5714C10C2BE4CD7A00DE093D /* XCRemoteSwiftPackageReference "HorizonCalendar" */,
+			);
 			productRefGroup = 571ACFBF2BD50FCD0005831D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -331,16 +348,19 @@
 				571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */,
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
 				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
+				5714C1102BE4CD9500DE093D /* CalendarTestView1.swift in Sources */,
 				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
 				571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */,
 				571AD00D2BD7A3010005831D /* NewContentView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
 				571AD00F2BD7A5920005831D /* NewPopupView.swift in Sources */,
+				5714C1122BE4CFB900DE093D /* DayRangeSelectionDemoViewController.swift in Sources */,
 				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
 				571AD0112BD7AD220005831D /* TestView.swift in Sources */,
 				571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */,
 				571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */,
 				571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */,
+				571AD0172BDFE4330005831D /* ImageWithTextView.swift in Sources */,
 				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
 				571AD0072BD75EC30005831D /* PopupView.swift in Sources */,
 				571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */,
@@ -705,6 +725,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5714C10C2BE4CD7A00DE093D /* XCRemoteSwiftPackageReference "HorizonCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/HorizonCalendar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5714C10D2BE4CD7A00DE093D /* HorizonCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5714C10C2BE4CD7A00DE093D /* XCRemoteSwiftPackageReference "HorizonCalendar" */;
+			productName = HorizonCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 571ACFB62BD50FCD0005831D /* Project object */;
 }

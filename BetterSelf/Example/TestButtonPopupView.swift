@@ -27,14 +27,15 @@ struct FloatingMenuButton: View {
 //
 //                        }
                         Image(systemName: icons[index])
-                            .offset(y: isOpen ? CGFloat(-((index + 1) * 30)) : 0)
-                            .foregroundColor(.white)
+                            .frame(width: 60, height:60)
+                        
+                            .foregroundColor(.red)
                             .background(Circle().fill(Color.blue))
-                            .padding()
                             .opacity(isOpen ? 1 : 0)
                     }
                     .transition(.scale)
                     .border(Color.blue, width: 2)
+                    .offset(y: isOpen ? CGFloat(-((index + 1) * 5)) : 0)
                 }
             }
             
