@@ -21,6 +21,8 @@
 		57E40FEF2BEB1E1500E34A03 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */; };
 		57E40FF12BEB26C500E34A03 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FF02BEB26C500E34A03 /* MapView.swift */; };
 		57E40FF32BEB362E00E34A03 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FF22BEB362E00E34A03 /* ReviewView.swift */; };
+		57E40FF52BEB6F5100E34A03 /* NewRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FF42BEB6F5100E34A03 /* NewRestaurantView.swift */; };
+		57E40FFA2BEB74C300E34A03 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FF92BEB74C300E34A03 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		57E40FF02BEB26C500E34A03 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		57E40FF22BEB362E00E34A03 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		57E40FF42BEB6F5100E34A03 /* NewRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantView.swift; sourceTree = "<group>"; };
+		57E40FF92BEB74C300E34A03 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		5709916A2BE9DE4B00B765BE /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				57E40FF62BEB74A200E34A03 /* Util */,
 				57E40FED2BEB1DFE00E34A03 /* Extensions */,
 				576DD94C2BEA1BB8008392B7 /* Info.plist */,
 				576DD94A2BEA1B73008392B7 /* Resources */,
@@ -104,6 +109,7 @@
 				570991842BEA03F800B765BE /* RestaurantDetailView.swift */,
 				57E40FF02BEB26C500E34A03 /* MapView.swift */,
 				57E40FF22BEB362E00E34A03 /* ReviewView.swift */,
+				57E40FF42BEB6F5100E34A03 /* NewRestaurantView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +145,14 @@
 				57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57E40FF62BEB74A200E34A03 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				57E40FF92BEB74C300E34A03 /* ImagePicker.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +235,8 @@
 				5709916C2BE9DE4B00B765BE /* FoodPinApp.swift in Sources */,
 				57E40FEF2BEB1E1500E34A03 /* UIColor+Ext.swift in Sources */,
 				5709917D2BE9E1CA00B765BE /* Section7WorkView.swift in Sources */,
+				57E40FF52BEB6F5100E34A03 /* NewRestaurantView.swift in Sources */,
+				57E40FFA2BEB74C300E34A03 /* ImagePicker.swift in Sources */,
 				57E40FF12BEB26C500E34A03 /* MapView.swift in Sources */,
 				570991832BE9F29D00B765BE /* ActivityView.swift in Sources */,
 			);
