@@ -16,6 +16,10 @@
 		5709917F2BE9E93300B765BE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709917E2BE9E93300B765BE /* Restaurant.swift */; };
 		570991832BE9F29D00B765BE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570991822BE9F29D00B765BE /* ActivityView.swift */; };
 		570991852BEA03F800B765BE /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570991842BEA03F800B765BE /* RestaurantDetailView.swift */; };
+		576DD94F2BEA1C35008392B7 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576DD94D2BEA1C35008392B7 /* Nunito-Regular.ttf */; };
+		576DD9502BEA1C35008392B7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576DD94E2BEA1C35008392B7 /* Nunito-Bold.ttf */; };
+		57E40FEF2BEB1E1500E34A03 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */; };
+		57E40FF12BEB26C500E34A03 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E40FF02BEB26C500E34A03 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,11 @@
 		5709917E2BE9E93300B765BE /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		570991822BE9F29D00B765BE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		570991842BEA03F800B765BE /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		576DD94C2BEA1BB8008392B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		576DD94D2BEA1C35008392B7 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		576DD94E2BEA1C35008392B7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		57E40FF02BEB26C500E34A03 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,9 @@
 		5709916A2BE9DE4B00B765BE /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				57E40FED2BEB1DFE00E34A03 /* Extensions */,
+				576DD94C2BEA1BB8008392B7 /* Info.plist */,
+				576DD94A2BEA1B73008392B7 /* Resources */,
 				570991812BE9F1E000B765BE /* Model */,
 				570991802BE9F19800B765BE /* View */,
 				5709916B2BE9DE4B00B765BE /* FoodPinApp.swift */,
@@ -88,6 +100,7 @@
 				5709917C2BE9E1CA00B765BE /* Section7WorkView.swift */,
 				570991822BE9F29D00B765BE /* ActivityView.swift */,
 				570991842BEA03F800B765BE /* RestaurantDetailView.swift */,
+				57E40FF02BEB26C500E34A03 /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +111,31 @@
 				5709917E2BE9E93300B765BE /* Restaurant.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		576DD94A2BEA1B73008392B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				576DD94B2BEA1B7F008392B7 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		576DD94B2BEA1B7F008392B7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				576DD94E2BEA1C35008392B7 /* Nunito-Bold.ttf */,
+				576DD94D2BEA1C35008392B7 /* Nunito-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		57E40FED2BEB1DFE00E34A03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57E40FEE2BEB1E1500E34A03 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576DD94F2BEA1C35008392B7 /* Nunito-Regular.ttf in Resources */,
 				570991762BE9DE4C00B765BE /* Preview Assets.xcassets in Resources */,
+				576DD9502BEA1C35008392B7 /* Nunito-Bold.ttf in Resources */,
 				570991722BE9DE4C00B765BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +215,9 @@
 				5709916E2BE9DE4B00B765BE /* RestaurantListView.swift in Sources */,
 				570991702BE9DE4B00B765BE /* Item.swift in Sources */,
 				5709916C2BE9DE4B00B765BE /* FoodPinApp.swift in Sources */,
+				57E40FEF2BEB1E1500E34A03 /* UIColor+Ext.swift in Sources */,
 				5709917D2BE9E1CA00B765BE /* Section7WorkView.swift in Sources */,
+				57E40FF12BEB26C500E34A03 /* MapView.swift in Sources */,
 				570991832BE9F29D00B765BE /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +352,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodPin/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -348,6 +391,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodPin/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

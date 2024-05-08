@@ -72,21 +72,38 @@ struct BasicTextImageView: View {
                     .foregroundColor(.yellow)
             }
         }
-        .onTapGesture {
-            showOptions.toggle()
+        .swipeActions(edge: .leading, allowsFullSwipe: false){
+            Button{
+            } label:{
+                Image(systemName: "heart")
+            }
+            .tint(.green)
+            Button{
+            } label:{
+                Image(systemName: "square.and.arrow.up")
+            }
+            .tint(.blue)
+            Button{
+            } label:{
+                Image(systemName: "heart")
+            }
+            .tint(.red)
         }
-        .confirmationDialog("What do you want to du", isPresented: $showOptions, titleVisibility: .visible){
-            Button("Reserve a button"){
-                self.showError.toggle()
-            }
-            Button(restaurant.isFavorite ? "Remove from favorites" : "Mark as favorite"){
-                self.restaurant.isFavorite.toggle()
-            }
-            Button("Share"){
-                self.showShare.toggle()
-            }
-            
-        }
+//        .onTapGesture {
+//            showOptions.toggle()
+//        }
+//        .confirmationDialog("What do you want to du", isPresented: $showOptions, titleVisibility: .visible){
+//            Button("Reserve a button"){
+//                self.showError.toggle()
+//            }
+//            Button(restaurant.isFavorite ? "Remove from favorites" : "Mark as favorite"){
+//                self.restaurant.isFavorite.toggle()
+//            }
+//            Button("Share"){
+//                self.showShare.toggle()
+//            }
+//            
+//        }
         .contextMenu{
             Button(action :{
                 self.showError.toggle()
