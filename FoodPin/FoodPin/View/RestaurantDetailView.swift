@@ -110,16 +110,16 @@ struct RestaurantDetailView: View {
             }
             ToolbarItem(placement: .confirmationAction){
                 Image(systemName: restaurant.isFavorite ? "heart.fill" : "heart")
-                    .font(.system(size: 30))
+                    .font(.system(size: 25))
                     .padding()
                     .foregroundStyle(restaurant.isFavorite ? .yellow : .white)// 保持顶部的 padding
                     .onTapGesture {
                         self.restaurant.isFavorite.toggle()
-                        print("restaurant favorite is \(restaurant.isFavorite)")
                     }
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .topTrailing)
             }
         }
+        
         .ignoresSafeArea()
         .overlay(
             self.showReview ?
