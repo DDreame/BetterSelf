@@ -27,6 +27,8 @@
 		57E6F3802BECD156008046C9 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6F37F2BECD156008046C9 /* TutorialView.swift */; };
 		57E6F3822BECD721008046C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6F3812BECD721008046C9 /* MainView.swift */; };
 		57E6F3842BECD941008046C9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6F3832BECD941008046C9 /* AboutView.swift */; };
+		57E6F3862BECD9F5008046C9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6F3852BECD9F5008046C9 /* WebView.swift */; };
+		57E6F3882BECDB12008046C9 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E6F3872BECDB12008046C9 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		57E6F37F2BECD156008046C9 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		57E6F3812BECD721008046C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		57E6F3832BECD941008046C9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		57E6F3852BECD9F5008046C9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		57E6F3872BECDB12008046C9 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				57E6F37F2BECD156008046C9 /* TutorialView.swift */,
 				57E6F3812BECD721008046C9 /* MainView.swift */,
 				57E6F3832BECD941008046C9 /* AboutView.swift */,
+				57E6F3852BECD9F5008046C9 /* WebView.swift */,
+				57E6F3872BECDB12008046C9 /* SafariView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 				570991702BE9DE4B00B765BE /* Item.swift in Sources */,
 				5709916C2BE9DE4B00B765BE /* FoodPinApp.swift in Sources */,
 				57E6F37E2BECCD3B008046C9 /* BasicView.swift in Sources */,
+				57E6F3882BECDB12008046C9 /* SafariView.swift in Sources */,
 				57E40FEF2BEB1E1500E34A03 /* UIColor+Ext.swift in Sources */,
+				57E6F3862BECD9F5008046C9 /* WebView.swift in Sources */,
 				57E40FF52BEB6F5100E34A03 /* NewRestaurantView.swift in Sources */,
 				57E40FFA2BEB74C300E34A03 /* ImagePicker.swift in Sources */,
 				57E40FF12BEB26C500E34A03 /* MapView.swift in Sources */,
