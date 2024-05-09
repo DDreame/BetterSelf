@@ -14,7 +14,7 @@ struct FullImageView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10){
-            Image(restaurant.image)
+            Image(uiImage: restaurant.image)
                 .resizable()
                 .scaledToFill()
                 .frame(width: .infinity,height: 200)
@@ -42,7 +42,7 @@ struct FullImageView: View {
 
 struct BasicTextImageView: View {
     
-    @Binding var restaurant:Restaurant
+    @Bindable var restaurant:Restaurant
     
     @State private var showOptions = false
     @State private var showError = false
@@ -50,7 +50,7 @@ struct BasicTextImageView: View {
     
     var body: some View {
         HStack(alignment: .top, spacing: 10){
-            Image(restaurant.image)
+            Image(uiImage:restaurant.image)
                 .resizable()
                 .scaledToFit()
                 .frame(height:90)
@@ -132,11 +132,7 @@ struct BasicTextImageView: View {
         }
         .sheet(isPresented: $showShare){
             let defaultText = "“Just checking in at \(restaurant.name)"
-            if let imageToShare = UIImage(named: restaurant.image) {
-                    ActivityView(activityItems: [defaultText, imageToShare])
-                } else {
-                    ActivityView(activityItems: [defaultText])
-                }
+            ActivityView(activityItems: [defaultText, restaurant.image])
         }
         .alert("Not yet avaiable", isPresented: $showError){
             Button("Ok"){

@@ -27,7 +27,7 @@ struct FoodPinApp: App {
     
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Restaurant.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -42,6 +42,6 @@ struct FoodPinApp: App {
         WindowGroup {
             RestaurantListView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(for: Restaurant.self)
     }
 }
