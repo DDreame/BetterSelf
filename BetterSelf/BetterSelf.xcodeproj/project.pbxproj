@@ -33,6 +33,10 @@
 		571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0122BD7B1B30005831D /* TestButtonView.swift */; };
 		571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0142BD7B7320005831D /* TestButtonPopupView.swift */; };
 		571AD0172BDFE4330005831D /* ImageWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0162BDFE4330005831D /* ImageWithTextView.swift */; };
+		572537F22BFA03AB00C649C1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F12BFA03AB00C649C1 /* Goal.swift */; };
+		572537F42BFA03B200C649C1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F32BFA03B200C649C1 /* Task.swift */; };
+		572537F72BFA03C700C649C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F62BFA03C700C649C1 /* User.swift */; };
+		572537FC2BFA077900C649C1 /* GoalTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537FB2BFA077900C649C1 /* GoalTaskTests.swift */; };
 		57C7D4742BE7DA4800DDB5BF /* CurveTabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7D4732BE7DA4800DDB5BF /* CurveTabViewTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +88,11 @@
 		571AD0122BD7B1B30005831D /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
 		571AD0142BD7B7320005831D /* TestButtonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonPopupView.swift; sourceTree = "<group>"; };
 		571AD0162BDFE4330005831D /* ImageWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTextView.swift; sourceTree = "<group>"; };
+		572537F12BFA03AB00C649C1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		572537F32BFA03B200C649C1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		572537F62BFA03C700C649C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		572537FA2BFA065000C649C1 /* TestPlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TestPlayGround.playground; path = BetterSelf/Example/TestPlayGround.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		572537FB2BFA077900C649C1 /* GoalTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTaskTests.swift; sourceTree = "<group>"; };
 		57C7D4732BE7DA4800DDB5BF /* CurveTabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTabViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +146,7 @@
 		571ACFC02BD50FCD0005831D /* BetterSelf */ = {
 			isa = PBXGroup;
 			children = (
+				572537F02BFA03A000C649C1 /* Model */,
 				571AD0032BD756B30005831D /* Example */,
 				571ACFF22BD52AA50005831D /* Chest */,
 				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
@@ -163,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				571ACFD52BD50FCE0005831D /* BetterSelfTests.swift */,
+				572537FB2BFA077900C649C1 /* GoalTaskTests.swift */,
 			);
 			path = BetterSelfTests;
 			sourceTree = "<group>";
@@ -204,6 +215,17 @@
 				57C7D4732BE7DA4800DDB5BF /* CurveTabViewTest.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		572537F02BFA03A000C649C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				572537F12BFA03AB00C649C1 /* Goal.swift */,
+				572537F32BFA03B200C649C1 /* Task.swift */,
+				572537F62BFA03C700C649C1 /* User.swift */,
+				572537FA2BFA065000C649C1 /* TestPlayGround.playground */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,8 +368,10 @@
 				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
 				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
 				57C7D4742BE7DA4800DDB5BF /* CurveTabViewTest.swift in Sources */,
+				572537F42BFA03B200C649C1 /* Task.swift in Sources */,
 				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
 				571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */,
+				572537F22BFA03AB00C649C1 /* Goal.swift in Sources */,
 				571AD00D2BD7A3010005831D /* NewContentView.swift in Sources */,
 				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
 				571AD00F2BD7A5920005831D /* NewPopupView.swift in Sources */,
@@ -360,6 +384,7 @@
 				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
 				571AD0072BD75EC30005831D /* PopupView.swift in Sources */,
 				571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */,
+				572537F72BFA03C700C649C1 /* User.swift in Sources */,
 				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
 				571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */,
 				571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */,
@@ -371,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571ACFD62BD50FCE0005831D /* BetterSelfTests.swift in Sources */,
+				572537FC2BFA077900C649C1 /* GoalTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
