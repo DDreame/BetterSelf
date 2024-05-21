@@ -19,7 +19,7 @@ struct RudderNavigation: View {
              ZStack {
                  switch selectedTab {
                  case 0:
-                     ChestRecordView()
+                     Text("Test")
                  case 1:
                      Text("搜索")
                  case 2:

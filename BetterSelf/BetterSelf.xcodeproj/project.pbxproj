@@ -9,20 +9,13 @@
 /* Begin PBXBuildFile section */
 		5714C10E2BE4CD7A00DE093D /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 5714C10D2BE4CD7A00DE093D /* HorizonCalendar */; };
 		571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */; };
-		571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFC52BD50FCD0005831D /* ChestSingle.swift */; };
 		571ACFC82BD50FCE0005831D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFC72BD50FCE0005831D /* Assets.xcassets */; };
 		571ACFCC2BD50FCE0005831D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */; };
 		571ACFD62BD50FCE0005831D /* BetterSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFD52BD50FCE0005831D /* BetterSelfTests.swift */; };
 		571ACFE02BD50FCE0005831D /* BetterSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */; };
 		571ACFE22BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */; };
 		571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFEE2BD51FF70005831D /* SampleData.swift */; };
-		571ACFF12BD526DC0005831D /* ChestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF02BD526DC0005831D /* ChestList.swift */; };
-		571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF32BD52B710005831D /* ChestRecordView.swift */; };
-		571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF72BD5ECFE0005831D /* ChestListView.swift */; };
-		571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFF92BD5F0890005831D /* ChestView.swift */; };
 		571ACFFC2BD600190005831D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFB2BD600190005831D /* ContentView.swift */; };
-		571ACFFE2BD60A660005831D /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFD2BD60A660005831D /* CreateView.swift */; };
-		571AD0002BD6409D0005831D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ACFFF2BD6409D0005831D /* SettingView.swift */; };
 		571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0042BD756FC0005831D /* RudderNavigation.swift */; };
 		571AD0072BD75EC30005831D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0062BD75EC30005831D /* PopupView.swift */; };
 		571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0082BD75F010005831D /* ShowPopupView.swift */; };
@@ -33,10 +26,15 @@
 		571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0122BD7B1B30005831D /* TestButtonView.swift */; };
 		571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0142BD7B7320005831D /* TestButtonPopupView.swift */; };
 		571AD0172BDFE4330005831D /* ImageWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD0162BDFE4330005831D /* ImageWithTextView.swift */; };
-		572537F22BFA03AB00C649C1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F12BFA03AB00C649C1 /* Goal.swift */; };
-		572537F42BFA03B200C649C1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F32BFA03B200C649C1 /* Task.swift */; };
-		572537F72BFA03C700C649C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F62BFA03C700C649C1 /* User.swift */; };
+		572537F22BFA03AB00C649C1 /* GoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F12BFA03AB00C649C1 /* GoalModel.swift */; };
+		572537F42BFA03B200C649C1 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F32BFA03B200C649C1 /* TaskModel.swift */; };
+		572537F72BFA03C700C649C1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537F62BFA03C700C649C1 /* UserModel.swift */; };
 		572537FC2BFA077900C649C1 /* GoalTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572537FB2BFA077900C649C1 /* GoalTaskTests.swift */; };
+		57C2859E2BFB507E00866119 /* YearlyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2859D2BFB507E00866119 /* YearlyGoalsView.swift */; };
+		57C285A02BFB51A500866119 /* MonthlyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2859F2BFB51A500866119 /* MonthlyGoalsView.swift */; };
+		57C285A22BFB51DB00866119 /* WeeklyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C285A12BFB51DB00866119 /* WeeklyGoalsView.swift */; };
+		57C285A42BFB520100866119 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C285A32BFB520100866119 /* ToDoListView.swift */; };
+		57C285A62BFB522100866119 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C285A52BFB522100866119 /* AddTaskView.swift */; };
 		57C7D4742BE7DA4800DDB5BF /* CurveTabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7D4732BE7DA4800DDB5BF /* CurveTabViewTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +58,6 @@
 /* Begin PBXFileReference section */
 		571ACFBE2BD50FCD0005831D /* BetterSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfApp.swift; sourceTree = "<group>"; };
-		571ACFC52BD50FCD0005831D /* ChestSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestSingle.swift; sourceTree = "<group>"; };
 		571ACFC72BD50FCE0005831D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterSelf.entitlements; sourceTree = "<group>"; };
 		571ACFCB2BD50FCE0005831D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -70,14 +67,8 @@
 		571ACFDF2BD50FCE0005831D /* BetterSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfUITests.swift; sourceTree = "<group>"; };
 		571ACFE12BD50FCE0005831D /* BetterSelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		571ACFEE2BD51FF70005831D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		571ACFF02BD526DC0005831D /* ChestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestList.swift; sourceTree = "<group>"; };
-		571ACFF32BD52B710005831D /* ChestRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestRecordView.swift; sourceTree = "<group>"; };
 		571ACFF52BD54FE80005831D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		571ACFF72BD5ECFE0005831D /* ChestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestListView.swift; sourceTree = "<group>"; };
-		571ACFF92BD5F0890005831D /* ChestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestView.swift; sourceTree = "<group>"; };
 		571ACFFB2BD600190005831D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		571ACFFD2BD60A660005831D /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
-		571ACFFF2BD6409D0005831D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		571AD0042BD756FC0005831D /* RudderNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudderNavigation.swift; sourceTree = "<group>"; };
 		571AD0062BD75EC30005831D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		571AD0082BD75F010005831D /* ShowPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPopupView.swift; sourceTree = "<group>"; };
@@ -88,11 +79,16 @@
 		571AD0122BD7B1B30005831D /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
 		571AD0142BD7B7320005831D /* TestButtonPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonPopupView.swift; sourceTree = "<group>"; };
 		571AD0162BDFE4330005831D /* ImageWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTextView.swift; sourceTree = "<group>"; };
-		572537F12BFA03AB00C649C1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
-		572537F32BFA03B200C649C1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		572537F62BFA03C700C649C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		572537F12BFA03AB00C649C1 /* GoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalModel.swift; sourceTree = "<group>"; };
+		572537F32BFA03B200C649C1 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		572537F62BFA03C700C649C1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		572537FA2BFA065000C649C1 /* TestPlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TestPlayGround.playground; path = BetterSelf/Example/TestPlayGround.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		572537FB2BFA077900C649C1 /* GoalTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTaskTests.swift; sourceTree = "<group>"; };
+		57C2859D2BFB507E00866119 /* YearlyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyGoalsView.swift; sourceTree = "<group>"; };
+		57C2859F2BFB51A500866119 /* MonthlyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyGoalsView.swift; sourceTree = "<group>"; };
+		57C285A12BFB51DB00866119 /* WeeklyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoalsView.swift; sourceTree = "<group>"; };
+		57C285A32BFB520100866119 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		57C285A52BFB522100866119 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		57C7D4732BE7DA4800DDB5BF /* CurveTabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTabViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,13 +142,10 @@
 		571ACFC02BD50FCD0005831D /* BetterSelf */ = {
 			isa = PBXGroup;
 			children = (
+				57C2859C2BFB506A00866119 /* View */,
 				572537F02BFA03A000C649C1 /* Model */,
 				571AD0032BD756B30005831D /* Example */,
-				571ACFF22BD52AA50005831D /* Chest */,
 				571ACFC12BD50FCD0005831D /* BetterSelfApp.swift */,
-				571ACFFB2BD600190005831D /* ContentView.swift */,
-				571ACFFD2BD60A660005831D /* CreateView.swift */,
-				571ACFFF2BD6409D0005831D /* SettingView.swift */,
 				571ACFC72BD50FCE0005831D /* Assets.xcassets */,
 				571ACFC92BD50FCE0005831D /* BetterSelf.entitlements */,
 				571ACFEE2BD51FF70005831D /* SampleData.swift */,
@@ -187,18 +180,6 @@
 			path = BetterSelfUITests;
 			sourceTree = "<group>";
 		};
-		571ACFF22BD52AA50005831D /* Chest */ = {
-			isa = PBXGroup;
-			children = (
-				571ACFC52BD50FCD0005831D /* ChestSingle.swift */,
-				571ACFF02BD526DC0005831D /* ChestList.swift */,
-				571ACFF32BD52B710005831D /* ChestRecordView.swift */,
-				571ACFF72BD5ECFE0005831D /* ChestListView.swift */,
-				571ACFF92BD5F0890005831D /* ChestView.swift */,
-			);
-			path = Chest;
-			sourceTree = "<group>";
-		};
 		571AD0032BD756B30005831D /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,12 +201,25 @@
 		572537F02BFA03A000C649C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				572537F12BFA03AB00C649C1 /* Goal.swift */,
-				572537F32BFA03B200C649C1 /* Task.swift */,
-				572537F62BFA03C700C649C1 /* User.swift */,
+				572537F12BFA03AB00C649C1 /* GoalModel.swift */,
+				572537F32BFA03B200C649C1 /* TaskModel.swift */,
+				572537F62BFA03C700C649C1 /* UserModel.swift */,
 				572537FA2BFA065000C649C1 /* TestPlayGround.playground */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57C2859C2BFB506A00866119 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				571ACFFB2BD600190005831D /* ContentView.swift */,
+				57C2859D2BFB507E00866119 /* YearlyGoalsView.swift */,
+				57C2859F2BFB51A500866119 /* MonthlyGoalsView.swift */,
+				57C285A12BFB51DB00866119 /* WeeklyGoalsView.swift */,
+				57C285A32BFB520100866119 /* ToDoListView.swift */,
+				57C285A52BFB522100866119 /* AddTaskView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,29 +359,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				571AD0092BD75F010005831D /* ShowPopupView.swift in Sources */,
-				571ACFF12BD526DC0005831D /* ChestList.swift in Sources */,
-				571AD0002BD6409D0005831D /* SettingView.swift in Sources */,
 				57C7D4742BE7DA4800DDB5BF /* CurveTabViewTest.swift in Sources */,
-				572537F42BFA03B200C649C1 /* Task.swift in Sources */,
-				571ACFFE2BD60A660005831D /* CreateView.swift in Sources */,
+				572537F42BFA03B200C649C1 /* TaskModel.swift in Sources */,
 				571AD0152BD7B7320005831D /* TestButtonPopupView.swift in Sources */,
-				572537F22BFA03AB00C649C1 /* Goal.swift in Sources */,
+				572537F22BFA03AB00C649C1 /* GoalModel.swift in Sources */,
 				571AD00D2BD7A3010005831D /* NewContentView.swift in Sources */,
-				571ACFF42BD52B710005831D /* ChestRecordView.swift in Sources */,
+				57C285A42BFB520100866119 /* ToDoListView.swift in Sources */,
+				57C285A22BFB51DB00866119 /* WeeklyGoalsView.swift in Sources */,
 				571AD00F2BD7A5920005831D /* NewPopupView.swift in Sources */,
 				571ACFFC2BD600190005831D /* ContentView.swift in Sources */,
 				571AD0112BD7AD220005831D /* TestView.swift in Sources */,
-				571ACFF82BD5ECFE0005831D /* ChestListView.swift in Sources */,
+				57C285A62BFB522100866119 /* AddTaskView.swift in Sources */,
+				57C285A02BFB51A500866119 /* MonthlyGoalsView.swift in Sources */,
 				571AD0052BD756FC0005831D /* RudderNavigation.swift in Sources */,
-				571ACFFA2BD5F0890005831D /* ChestView.swift in Sources */,
 				571AD0172BDFE4330005831D /* ImageWithTextView.swift in Sources */,
-				571ACFC62BD50FCD0005831D /* ChestSingle.swift in Sources */,
 				571AD0072BD75EC30005831D /* PopupView.swift in Sources */,
 				571AD0132BD7B1B30005831D /* TestButtonView.swift in Sources */,
-				572537F72BFA03C700C649C1 /* User.swift in Sources */,
+				572537F72BFA03C700C649C1 /* UserModel.swift in Sources */,
 				571ACFC22BD50FCD0005831D /* BetterSelfApp.swift in Sources */,
 				571AD00B2BD75FE70005831D /* RudderNavigationView.swift in Sources */,
 				571ACFEF2BD51FF70005831D /* SampleData.swift in Sources */,
+				57C2859E2BFB507E00866119 /* YearlyGoalsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
